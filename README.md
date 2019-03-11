@@ -9,7 +9,7 @@ Object created by:
 
 Objects can be created either using Python as specified at https://docs.opentrons.com/labware.html#create 
 i.e 
-
+```python
 plate_name = 'iceblock12'
 if plate_name not in labware.list():
     custom_plate = labware.create(
@@ -20,5 +20,5 @@ if plate_name not in labware.list():
         depth= 36.9,                       # depth (mm) of each well on the plate
         offset=(37, 27, 20)                # offset values for the A1 well 
         volume=(1500)                       #total volume in uL
-        
+```
 Or via JavaScript by compiling the Labware designer as specified at https://github.com/chris-french-lab/opentrons/tree/edge/labware-designer and the final labware should look like iceblock12.js
