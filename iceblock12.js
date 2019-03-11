@@ -1,6 +1,6 @@
 iceblock12 = {
 metadata: {
-  displayName: "block12",
+  displayName: "iceblock12",
   displayCategory: "tuberack",
   displayVolumeUnits: "uL",
   displayLengthUnits: "mm",
