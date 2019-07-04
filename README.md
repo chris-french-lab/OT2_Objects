@@ -20,7 +20,7 @@ if plate_name not in labware.list():
         depth= 36.9,                       # depth (mm) of each well on the plate
         offset=(37, 27, 20),                # offset values for the A1 well 
         volume=(1500)                       #total volume in uL
-```
+)```
 Or via JavaScript by compiling the Labware designer as specified at https://github.com/chris-french-lab/opentrons/tree/edge/labware-designer. The final labware should looks like iceblock12.js
 
 ```javascript
