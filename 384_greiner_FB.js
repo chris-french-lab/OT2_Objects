@@ -14,7 +14,7 @@ parameters: {
 offset: {
   x: 12.13,
   y: 8.99,
-  z: 20,
+  z: 0,
 },
 dimensions: {
   overallLength: 127.76,
