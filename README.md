@@ -7,7 +7,8 @@ Object created by:
 | ------------- | ------------- |
 | iceblock12.js  | Felipe A. Millacura  |
 
-Objects can be created either within your Python script as specified at https://docs.opentrons.com/labware.html#create 
+Objects can be created either within your Python script as specified at 
+https://docs.opentrons.com/labware.html#create 
 i.e 
 ```python
 plate_name = 'iceblock12'
@@ -21,7 +22,9 @@ if plate_name not in labware.list():
         offset=(37, 27, 20),                # offset values for the A1 well 
         volume=(1500)                       #total volume in uL
 )```
-Or via JavaScript by compiling the Labware designer as specified at https://github.com/chris-french-lab/opentrons/tree/edge/labware-designer. The final labware should looks like iceblock12.js
+Or via JavaScript by compiling the Labware designer as specified at 
+https://github.com/chris-french-lab/opentrons/tree/edge/labware-designer. 
+The final labware should looks like iceblock12.js
 
 ```javascript
 iceblock12 = {
